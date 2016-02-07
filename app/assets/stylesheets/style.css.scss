@@ -1,0 +1,99 @@
+body {
+	color: #666;
+	background-image: image-url("logo.png");
+	background-repeat: no-repeat;
+	background-position: 100% 0%; 
+}
+
+input, label, h3 {
+	display: block;
+	width: 100%;
+	margin: 5px;
+	text-align: center;
+	font-weight: 300;
+}
+
+h3, input, label {
+	font-size: xx-large;
+}
+
+h6, div {
+  font-weight: 300;
+	font-size: large;	
+}
+
+h6 {
+  margin: 25px;
+	margin-left: 0;
+}
+
+fieldset {
+	border: 0;
+	width: 50%;
+	margin-left: 250px;
+}
+
+.title {
+	width: 100%;
+	color: pink;	
+}
+
+.time_slot {
+	border: 1px solid #666;
+	font-size: large;
+	padding-left: 10px;
+}
+
+.time_slot:hover {
+	background-color: #CCC;
+}
+
+.day_column {
+	display: inline-block;
+	vertical-align: top;
+	width: 13%;
+	margin: 4px;
+}
+
+.client_appt {
+	background-color: #15a5d5;
+}
+
+#submit {
+	background-color: #fff;
+	border: 1px solid #999;
+}
+
+#submit:hover {
+	background-color: #CCC;
+}
+
+#show_client {
+	margin-top: 30px;
+}
+
+#new_client {
+	margin-top: 100px;
+}
+
+#month_select {
+	display: inline-block;
+	width: auto;
+	text-align: left;
+}
+
+#center_select {
+	align-content: center;
+}
+
+#flag {
+	margin-top: 25px;
+	height: 30px;
+}
+
+#flag h6 {
+	color: #B67DAE;
+	font-weight: 600;
+	margin: 0;
+}
+

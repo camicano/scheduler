@@ -1,0 +1,9 @@
+#show_client
+	%h3= 'Schedule a phone call with ' + @client.coach.name
+	= hidden_field_tag :coach, @client.coach.id, id: 'coach'
+	= hidden_field_tag :client, @client.id, id: 'client'
+	#center_select
+		%h6{ class: 'month_title' } Select Month
+		= select_tag :month_select, options_for_select(@months), id: 'month_select'
+		#flag
+		#available_times

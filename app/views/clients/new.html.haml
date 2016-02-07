@@ -1,0 +1,5 @@
+= form_tag '/clients', { id: 'new_client', class: 'small-12 columns' } do
+  = field_set_tag nil do
+    = label_tag :name, 'Create new user:'
+    = text_field_tag :name
+    = submit_tag 'Add', id: 'submit'
